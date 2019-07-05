@@ -1,0 +1,50 @@
+.btn {
+  margin: 10px auto 0 auto !important;
+  background-color: $pink2 !important;
+  color: $white !important;
+  height: 3em;
+  width: 3em;
+}
+
+.input {
+  
+  text-align: center !important;
+  text-transform: lowercase;
+  height: 150px;
+
+  #my-input {
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  #my-helper-text {
+    text-align: center;
+  }
+}
+
+.line {
+  margin: 10px auto 10px auto;
+  width: 100%;
+  border-bottom: 1px solid $eerie;
+  opacity: 0.4;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: $eerie;
+  padding: 5px;
+  height: 200px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  font-size: 30px;
+  text-align: center;
+  height: 20s0px;
+}

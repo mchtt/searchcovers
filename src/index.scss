@@ -1,0 +1,25 @@
+@import './styles/variables';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $coco;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.cover {
+  width: 500px;
+}
+
+@import './components/app/app.style.scss';
+@import './components/artist/artist.style.scss';
+@import './components/form/form.style.scss';
+@import './components/results/results.style.scss';
